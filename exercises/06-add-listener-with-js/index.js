@@ -5,3 +5,7 @@ window.onload = function myLoadFunction() {
 };
 
 // The listener function here
+document.getElementById("theGreen").addEventListener("click", function(){
+	alert("woohoo!");
+})
+//used arrow function for simplicity rather then making a seperate function
